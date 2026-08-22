@@ -1,15 +1,17 @@
-# Python virtual environments
-venv/
-.venv/
-env/
-
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
+venv/
+.venv/
 
-# IDE
-.idea/
-.vscode/
+# Downloaded datasets
+**/data/
 
-# OS files
-.DS_Storevenv/
+# Trained model weights
+**/weights/
+*.pt
+*.pth
+*.ckpt
+
+# Generated experiment data
+**/results/*.json

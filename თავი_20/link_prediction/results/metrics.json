@@ -1,0 +1,20 @@
+{
+  "best_epoch": 76,
+  "best_validation": {
+    "loss": 0.7160947322845459,
+    "roc_auc": 0.826772108892712
+  },
+  "test": {
+    "loss": 0.7865181565284729,
+    "roc_auc": 0.8117193379157379
+  },
+  "config": {
+    "input_dim": 1433,
+    "hidden_dim": 128,
+    "num_gcn_layers": 3,
+    "dropout": 0.5,
+    "learning_rate": 0.01,
+    "epochs": 100,
+    "seed": 42
+  }
+}

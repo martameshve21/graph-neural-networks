@@ -1,0 +1,22 @@
+{
+  "best_epoch": 30,
+  "best_validation": {
+    "accuracy": 0.9834670556771213,
+    "roc_auc": 0.7968994953948657,
+    "loss": 0.07978470489783984
+  },
+  "test": {
+    "accuracy": 0.9698516897641624,
+    "roc_auc": 0.7584368180150255,
+    "loss": 0.1208000371176926
+  },
+  "config": {
+    "epochs": 30,
+    "batch_size": 32,
+    "hidden_dim": 256,
+    "num_gcn_layers": 5,
+    "dropout": 0.5,
+    "learning_rate": 0.001,
+    "seed": 42
+  }
+}
